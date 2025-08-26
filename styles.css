@@ -260,7 +260,7 @@ body {
   position: absolute;
   height: 4px;
   background-color: var(--secondary-color);
-  width: 95%;
+  width: 90%;
   z-index: -900;
   opacity: 0.5;
   left: 100px;
@@ -388,10 +388,10 @@ body {
   background-image: url("./images/internet/engineering-team.jpg");
 }
 .about__in-action--item.item4 {
-  background-image: url("./images/internet/envirenmental-reclamation.jpg");
+  background-image: url("./images/tz/env-rec.jpeg");
 }
 .about__in-action--item.item5 {
-  background-image: url("./images/home-slide-002.jpg");
+  background-image: url("./images/tz/WhatsApp\ Image\ 2025-08-26\ at\ 13.01.30.jpeg");
 }
 .about__in-action--item.item6 {
   background-image: url("./images/internet/safety-team.jpg");
