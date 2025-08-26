@@ -59,6 +59,21 @@ body {
   font-weight: 500;
   font-size: 24px;
 }
+.header__logo-text:after {
+  content: "";
+  height: 2px;
+  display: block;
+  width: 100%;
+  z-index: 1000;
+  background-image: linear-gradient(to right, #495057, #f08c00);
+}
+
+.header__logo p {
+  color: #ced4da;
+  /* color: #adb5bd; */
+  letter-spacing: 1.6px;
+  font-size: 10px;
+}
 
 .zambezi {
   color: var(--primary-color);
@@ -533,6 +548,7 @@ footer .footer_content-box .copy-right {
   border: none !important;
   margin-top: 24px;
   color: #495057;
+  font-size: 12px;
 }
 .about__our-history {
   background-color: var(--success-color);
